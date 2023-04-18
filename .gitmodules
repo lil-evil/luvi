@@ -3,7 +3,7 @@
 	url = https://github.com/zhaozg/lua-openssl.git
 [submodule "deps/luv"]
 	path = deps/luv
-	url = https://github.com/lil-evil/luv.git
+	url = https://github.com/lil-evil/luv
 [submodule "deps/zlib"]
 	path = deps/zlib
 	url = https://github.com/luvit/zlib.git
