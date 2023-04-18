@@ -1,5 +1,7 @@
 cmake_minimum_required(VERSION 2.8.9)
 
+set(CMAKE_POSITION_INDEPENDENT_CODE ON)
+
 if(WIN32)
   set(projects C ASM ASM_MASM)
 else()
@@ -179,7 +181,7 @@ if("${CMAKE_SYSTEM_NAME}" MATCHES "Linux")
 endif()
 
 target_link_libraries(luvi ${LUVI_LIBRARIES} ${EXTRA_LIBS} ${CMAKE_THREAD_LIBS_INIT})
-set_target_properties(luvi PROPERTIES ENABLE_EXPORTS ON)
+# set_target_properties(luvi PROPERTIES ENABLE_EXPORTS ON)
 
 ###############################################################################
 ## Installation Targets
