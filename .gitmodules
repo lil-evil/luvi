@@ -16,3 +16,6 @@
 [submodule "deps/lpeg"]
 	path = deps/lpeg
 	url = https://github.com/luvit/lpeg.git
+[submodule "deps/luv"]
+	path = deps/luv
+	url = https://github.com/lil-evil/luv
